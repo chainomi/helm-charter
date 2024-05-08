@@ -18,19 +18,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure Git
-        run: |
-          git config user.name "helm-charter-bot"
-          git config user.email "helm-charter-bot@users.noreply.github.com"
-
-      - name: Create gh-pages branch if it doesn't exist
-        continue-on-error: true
-        run: |
-          git checkout -b gh-pages || exit 1
-          git rebase main
-          git push origin gh-pages
-
-          git checkout main
           
       - name: Install Helm
         uses: azure/setup-helm@v3
