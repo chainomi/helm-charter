@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  dotnet-api-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-13T01:17:39.042206572Z"
+    description: A Helm chart for dotnet api
+    digest: a29674f521796e76cb9a7404d25af04397583e68870fa67ad1ea412e1c59ef39
+    name: dotnet-api-chart
+    type: application
+    urls:
+    - https://github.com/chainomi/helm-charter/releases/download/dotnet-api-chart-1.0.0/dotnet-api-chart-1.0.0.tgz
+    version: 1.0.0
   node-api-chart:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/chainomi/helm-charter/releases/download/node-api-chart-1.2.0/node-api-chart-1.2.0.tgz
     version: 1.2.0
-generated: "2024-05-09T15:22:29.71014635Z"
+generated: "2024-05-13T01:17:39.042237791Z"
